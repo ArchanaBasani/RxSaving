@@ -1,0 +1,20 @@
+{
+  "name": "rxsaving",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "app.js",
+  "scripts": {
+    "test": "test",
+    "start": "node app.js"
+  },
+  "author": "archana",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "ejs": "^2.6.1",
+    "express": "^4.17.1",
+    "http-errors": "^1.8.0",
+    "mongoose": "^5.10.0",
+    "path": "^0.12.7"
+  }
+}
