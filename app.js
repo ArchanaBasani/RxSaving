@@ -6,7 +6,7 @@ var path = require('path');
 var mongoose = require('mongoose');
 
 //connecting to mongo DB - syntax url -mongodb://[username:password@]host1[:port1][,...hostN[:portN]][/[defaultauthdb][?options]]
-mongoose.connect('mongodb://user:user123@ds361768.mlab.com:61768/rxsavings',
+mongoose.connect('syntaxurl',
   {useNewUrlParser: true },function(err){
     if(err) {
       console.log('Some problem with the connection ' +err);
